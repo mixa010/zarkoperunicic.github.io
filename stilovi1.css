@@ -1,0 +1,51 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+html {
+	font-size: 10px;	
+	background-image: url('XgVo3f.jpg');
+
+}
+.box {
+	min-height: 100vh;
+	width: 100%;
+	display: flex;
+    flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.naslov{
+	font-size: 2.8rem;
+	color: white;
+}
+.forma {
+	padding: 3rem 0;
+}
+.forma form {
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 2rem;
+}
+.grupa label {
+	font-size: 1.6rem;
+	color: white;
+}
+.grupa input,
+.grupa textarea,
+.grupa select {
+	width: 100%;
+	border: none;
+	background-color: white;
+	font-size: 1.4rem;
+	padding: 1.5rem;
+	border-radius: 8px;
+	margin-top: 0.5rem;
+}
+.dugme{
+	width: inherit;
+	border: none;
+	padding: 1rem 4rem;
+	letter-spacing: 0.1rem;
+}
